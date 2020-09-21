@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="600" Width="1000">
 	<Grid>
-		<Grid>
+		<Grid Background="#00aaff">
 			<Grid.RowDefinitions>
 				<RowDefinition Height="25"/>
 				<RowDefinition Height="*"/>
@@ -24,7 +24,7 @@
 			</Grid>
 
 			<!-- Main -->
-			<Grid Grid.Row="1" Background="#6c79af">
+			<Grid Grid.Row="1">
 				<Grid.ColumnDefinitions>
 					<ColumnDefinition Width="*"/>
 					<ColumnDefinition Width="4*"/>
@@ -32,13 +32,7 @@
 				<!-- Details -->
 				<StackPanel Background="#2d2d2d" Margin="10" Grid.Column="0" Grid.Row="1">
 					<TextBlock Text="Información"				Foreground="White" FontWeight="Bold"/>
-					
-					<TextBlock Text="Proyecto: "				Foreground="White"/>
-					<TextBlock x:Name="Project_Text"			Foreground="White"/>
-
-					<TextBlock Text="Nombre de Snippet: "		Foreground="White"/>
-					<TextBlock x:Name="SnippetName_Text"		Foreground="White"/>
-																
+																				
 					<TextBlock Text="Fecha de Creacion: "		Foreground="White"/>
 					<TextBlock x:Name="Creation_Text"			Foreground="White"/>
 																
@@ -53,7 +47,7 @@
 				</StackPanel>
 
 				<!-- Main Body -->
-				<Grid Grid.Column="1" Background="#6c79af">
+				<Grid Grid.Column="1">
 					<Grid.RowDefinitions>
 						<RowDefinition Height="40"/>
 						<RowDefinition Height="*"/>
@@ -78,25 +72,26 @@
 		<!-- Menu Buttons -->
 		<Grid Width="200" HorizontalAlignment="Right" x:Name="Menu" Visibility="Hidden" Grid.Row="1">
 			<Border BorderBrush="Black" BorderThickness="5"
-					Background="#9ca7d7">
+					Background="#578aff">
 				<StackPanel Margin="5">
-					<Button Content="Create Project"		Height="40" Margin="0 0 0 1" Click="CreateProject_Click"/>
-					<Button Content="Load Other Project"	Height="40" Margin="0 0 0 1" Click="Load_Click" />
+					<Button Content="Crear Proyecto"		Height="40" Margin="0 0 0 1" Click="CreateProject_Click"/>
+					<Button Content="Cargar Otro Proyecto"	Height="40" Margin="0 0 0 1" Click="Load_Click" />
 
-					<TextBlock Text="Recent Projects: " Background="White" Height="20" Padding="2" Margin="0 10 0 0" />
+					<TextBlock Text="Proyectos Recientes: " Background="White" Height="20" Padding="2" Margin="0 10 0 0" />
 					<ComboBox x:Name="Project_Select" Margin="0 0 0 10" 
 					  SelectionChanged="Project_Select_SelectionChanged">
 					</ComboBox>
 					
-					<TextBlock Text="Select Snipet: " Background="White" Height="20" Padding="2"/>
+					<TextBlock Text="Elegir Snippet: " Background="White" Height="20" Padding="2"/>
 					<ComboBox x:Name="Snippet_Select" Margin="0 0 0 10" 
 					  SelectionChanged="Snippet_Select_SelectionChanged">
 					</ComboBox>
 					
-					<Button Content="Save Snippet"		Height="40" Margin="0 0 0 1" Click="Save_Click"/>
-					<Button Content="Delete Entry"		Height="40" Margin="0 0 0 1" Click="Delete_Click"/>
-					<Button Content="Clear Directory"	Height="40" Margin="0 0 0 1" Click="ClearDirectory_Click"/>
-					<Button Content="Close Menu"		Height="40" Margin="0 0 0 1" Click="Close_Click"/>
+					<Button Content="Guardar Snippet"				Height="40" Margin="0 0 0 1" Click="Save_Click"/>
+					<Button Content="Nuevo Snippet"					Height="40" Margin="0 0 0 1" Click="New_Click"/>
+					<Button Content="Borrar Este Snippet"			Height="40" Margin="0 0 0 1" Click="Delete_Click"/>
+					<Button Content="Borrar Directorios Recientes"	Height="40" Margin="0 0 0 1" Click="ClearDirectory_Click"/>
+					<Button Content="Cerrar Menú"					Height="40" Margin="0 0 0 1" Click="Close_Click"/>
 				</StackPanel>
 			</Border>
 		</Grid>

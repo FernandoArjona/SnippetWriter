@@ -49,7 +49,6 @@ namespace SnipetWriter
              *saves them into a a project file.
             */
             SaveFileDialog saveFile = new SaveFileDialog();
-            saveFile.FileName = this.Project_Text.Text;
             saveFile.DefaultExt = ".json";
 
             if (saveFile.ShowDialog() == true)
@@ -69,11 +68,9 @@ namespace SnipetWriter
                         isDocumentFound = true;
                         project.snippets[i].Name            = this.Name_Text.Text;
                         project.snippets[i].Text            = this.Writer_Main_Text.Text;
-                        project.snippets[i].Project         = this.Project_Text.Text;
                         project.snippets[i].CharacterCount  = Convert.ToInt32(this.Character_Count_Text.Text);
                         project.snippets[i].WordCount       = Convert.ToInt32(this.WordCount_Text.Text);
 
-                        //project.Snippets[i].CreationDate = this.Name_Text.Text;
                         project.snippets[i].LastEdit = DateTime.Now.ToString("dd.Mm.yy");
                     }
                     i++;
@@ -131,11 +128,12 @@ namespace SnipetWriter
              * into the writer interface.
              */
             snippet Snippet = project.snippets[index];
-            this.Name_Text.Text         = project.snippets[index].Name;
-            this.Writer_Main_Text.Text  = project.snippets[index].Text;
-            this.Project_Text.Text      = project.snippets[index].Project;
-            //this.Character_Count_Text.Text) = project.Snippets[index].CharacterCount   
-            this.WordCount_Text.Text    = Convert.ToString(project.snippets[index].WordCount);
+            this.Name_Text.Text                 = project.snippets[index].Name;
+            this.Writer_Main_Text.Text          = project.snippets[index].Text;
+            this.Character_Count_Text.Text      = Convert.ToString(project.snippets[index].CharacterCount);
+            this.WordCount_Text.Text            = Convert.ToString(project.snippets[index].WordCount);
+            this.LastEdit_Text.Text             = project.snippets[index].LastEdit;
+            this.Creation_Text.Text             = project.snippets[index].CreationDate;
             Update_Selection(project);
         }
         private void Update_Selection(Project_File project)
@@ -263,6 +261,11 @@ namespace SnipetWriter
         {
             this.Menu.Visibility = Visibility.Visible;
         }
+        private void New_Click(object sender, RoutedEventArgs e)
+        {
+            this.Name_Text.Text = "";
+            this.Writer_Main_Text.Text = "";
+        }
         private void CreateProject_Click(object sender, RoutedEventArgs e)
         {
             Directory directory     = GetDirectory();
@@ -278,6 +281,7 @@ namespace SnipetWriter
                 json = JsonConvert.SerializeObject(directory);
                 File.WriteAllText(loadDirectory, json);
             }
+            Update_Projects();
         }
         private void ClearDirectory_Click(object sender, RoutedEventArgs e)
         {
@@ -295,11 +299,13 @@ namespace SnipetWriter
         {
             snippet Snippet = new snippet
             {
-                Text        = this.Writer_Main_Text.Text,
-                Project     = this.Project_Text.Text,
-                Name        = this.Name_Text.Text,
-                //CreationDate = DateTime.Now.ToString("dd.MM.yy"),
-                LastEdit    = DateTime.Now.ToString("dd.MM.yy"),
+                 //Matching document IS found
+                Text            = this.Writer_Main_Text.Text,
+                Name            = this.Name_Text.Text,
+                CharacterCount  = Convert.ToInt32(this.Character_Count_Text.Text),
+                WordCount       = Convert.ToInt32(this.WordCount_Text.Text),
+                CreationDate    = DateTime.Now.ToString("dd.MM.yy"),
+                LastEdit        = DateTime.Now.ToString("dd.MM.yy"),
             };
             return Snippet;
         }
@@ -330,5 +336,7 @@ namespace SnipetWriter
             File.WriteAllText(loadDirectory, JsonConvert.SerializeObject(directory));
         }
         #endregion
+
+        
     }
 }
