@@ -274,7 +274,7 @@ namespace SnipetWriter
             saveFile.DefaultExt = ".json";
             if (saveFile.ShowDialog() == true)
             {
-                project.ProjectName = saveFile.FileName;
+                project.ProjectName = System.IO.Path.GetFileName(saveFile.FileName);
                 string json = JsonConvert.SerializeObject(project);
                 File.WriteAllText(saveFile.FileName, json);
                 directory.projectPaths.Add(saveFile.FileName);
