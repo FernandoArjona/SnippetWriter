@@ -1,0 +1,35 @@
+F:\Users\Caramelus Honorablus\source\repos\c#\SnipetWriter\SnipetWriter\bin\Debug\SnipetWriter.exe.config
+F:\Users\Caramelus Honorablus\source\repos\c#\SnipetWriter\SnipetWriter\bin\Debug\SnipetWriter.exe
+F:\Users\Caramelus Honorablus\source\repos\c#\SnipetWriter\SnipetWriter\bin\Debug\SnipetWriter.pdb
+F:\Users\Caramelus Honorablus\source\repos\c#\SnipetWriter\SnipetWriter\bin\Debug\Newtonsoft.Json.dll
+F:\Users\Caramelus Honorablus\source\repos\c#\SnipetWriter\SnipetWriter\bin\Debug\Newtonsoft.Json.xml
+F:\Users\Caramelus Honorablus\source\repos\c#\SnipetWriter\SnipetWriter\obj\Debug\SnippetWriter.csprojAssemblyReference.cache
+F:\Users\Caramelus Honorablus\source\repos\c#\SnipetWriter\SnipetWriter\obj\Debug\MainWindow.g.cs
+F:\Users\Caramelus Honorablus\source\repos\c#\SnipetWriter\SnipetWriter\obj\Debug\App.g.cs
+F:\Users\Caramelus Honorablus\source\repos\c#\SnipetWriter\SnipetWriter\obj\Debug\SnipetWriter_MarkupCompile.cache
+F:\Users\Caramelus Honorablus\source\repos\c#\SnipetWriter\SnipetWriter\obj\Debug\SnipetWriter_MarkupCompile.lref
+F:\Users\Caramelus Honorablus\source\repos\c#\SnipetWriter\SnipetWriter\obj\Debug\MainWindow.baml
+F:\Users\Caramelus Honorablus\source\repos\c#\SnipetWriter\SnipetWriter\obj\Debug\SnipetWriter.g.resources
+F:\Users\Caramelus Honorablus\source\repos\c#\SnipetWriter\SnipetWriter\obj\Debug\SnipetWriter.Properties.Resources.resources
+F:\Users\Caramelus Honorablus\source\repos\c#\SnipetWriter\SnipetWriter\obj\Debug\SnippetWriter.csproj.GenerateResource.cache
+F:\Users\Caramelus Honorablus\source\repos\c#\SnipetWriter\SnipetWriter\obj\Debug\SnippetWriter.csproj.CoreCompileInputs.cache
+F:\Users\Caramelus Honorablus\source\repos\c#\SnipetWriter\SnipetWriter\obj\Debug\SnippetWriter.csproj.CopyComplete
+F:\Users\Caramelus Honorablus\source\repos\c#\SnipetWriter\SnipetWriter\obj\Debug\SnipetWriter.exe
+F:\Users\Caramelus Honorablus\source\repos\c#\SnipetWriter\SnipetWriter\obj\Debug\SnipetWriter.pdb
+C:\Users\Fernando\Downloads\SnippetWriter-master\SnippetWriter-master\SnipetWriter\bin\Debug\SnipetWriter.exe.config
+C:\Users\Fernando\Downloads\SnippetWriter-master\SnippetWriter-master\SnipetWriter\bin\Debug\SnipetWriter.exe
+C:\Users\Fernando\Downloads\SnippetWriter-master\SnippetWriter-master\SnipetWriter\bin\Debug\SnipetWriter.pdb
+C:\Users\Fernando\Downloads\SnippetWriter-master\SnippetWriter-master\SnipetWriter\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Fernando\Downloads\SnippetWriter-master\SnippetWriter-master\SnipetWriter\obj\Debug\SnippetWriter.csproj.AssemblyReference.cache
+C:\Users\Fernando\Downloads\SnippetWriter-master\SnippetWriter-master\SnipetWriter\obj\Debug\MainWindow.g.cs
+C:\Users\Fernando\Downloads\SnippetWriter-master\SnippetWriter-master\SnipetWriter\obj\Debug\App.g.cs
+C:\Users\Fernando\Downloads\SnippetWriter-master\SnippetWriter-master\SnipetWriter\obj\Debug\SnipetWriter_MarkupCompile.cache
+C:\Users\Fernando\Downloads\SnippetWriter-master\SnippetWriter-master\SnipetWriter\obj\Debug\SnipetWriter_MarkupCompile.lref
+C:\Users\Fernando\Downloads\SnippetWriter-master\SnippetWriter-master\SnipetWriter\obj\Debug\MainWindow.baml
+C:\Users\Fernando\Downloads\SnippetWriter-master\SnippetWriter-master\SnipetWriter\obj\Debug\SnipetWriter.g.resources
+C:\Users\Fernando\Downloads\SnippetWriter-master\SnippetWriter-master\SnipetWriter\obj\Debug\SnipetWriter.Properties.Resources.resources
+C:\Users\Fernando\Downloads\SnippetWriter-master\SnippetWriter-master\SnipetWriter\obj\Debug\SnippetWriter.csproj.GenerateResource.cache
+C:\Users\Fernando\Downloads\SnippetWriter-master\SnippetWriter-master\SnipetWriter\obj\Debug\SnippetWriter.csproj.CoreCompileInputs.cache
+C:\Users\Fernando\Downloads\SnippetWriter-master\SnippetWriter-master\SnipetWriter\obj\Debug\SnippetWriter.csproj.CopyComplete
+C:\Users\Fernando\Downloads\SnippetWriter-master\SnippetWriter-master\SnipetWriter\obj\Debug\SnipetWriter.exe
+C:\Users\Fernando\Downloads\SnippetWriter-master\SnippetWriter-master\SnipetWriter\obj\Debug\SnipetWriter.pdb
